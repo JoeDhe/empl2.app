@@ -6,6 +6,7 @@
     <link rel="manifest" href="./manifest.json">
     <link rel='stylesheet' href='./style.css'>
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script>
         if('serviceWorker' in navigator) {
             navigator.serviceWorker.register('./service-worker.js');
@@ -19,13 +20,16 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 </head>
 <body>
-    <nav>
-        <a href='index.html' class='selected'>Home</a>
-        <a href='blog.html'>Blog</a>
-        <a href='about.html'>About</a>
-    </nav>
+   
     <main>
-        Hi there, this is the content area.
+        <div class="row vh-100 container d-flex aligns-items-center">
+   <div class="col-sm-12 my-auto">
+     <h3>EmployeeApp Installer</h3>
+     <hr>
+     <p class="text-primary">Silakan klik tombol Add to home screen untuk menginstall aplikasi</p>     
+   </div>
+</div>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
